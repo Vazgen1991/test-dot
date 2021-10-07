@@ -1,0 +1,122 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width: 1640px) {
+  .main_block {
+    padding-left: 16px;
+    padding-right: 16px;
+
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .main_block {
+    .form {
+      .info {
+        max-width: unset;
+        bottom: 0;
+        left: 0;
+        top: unset;
+        margin-left: 0;
+        margin-bottom: 37px;
+
+      }
+    }
+  }
+
+
+}
+@media only screen and (max-width: 768px) {
+  .main_block {
+    h1 {
+      font-size: 45px;
+      line-height: 60px;
+    }
+  }
+}
+@media only screen and (max-width: 488px) {
+  .main_block {
+    h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .form {
+      .form_block_item {
+        margin-top: 40px;
+        .specific_margin {
+          .hide-show {
+            display: block;
+          }
+        }
+        .form_block_item_select_block {
+          .hide-show {
+            display: block;
+          }
+          .select_sm {
+            max-width: 165px;
+          }
+          .rs_item_block {
+            max-width: 100%;
+
+            .select_lg {
+              max-width: 165px;
+            }
+            .rs_none {
+              display: none;
+            }
+            ._rs_mg_none {
+              margin-top: 0;
+            }
+            .form_block_item_select_block {
+              max-width: unset;
+              width: unset;
+            }
+          }
+        }
+        .textarea {
+          margin-bottom: 177px;
+        }
+      }
+    }
+
+  }
+}
+@media only screen and (max-width: 380px) {
+  .main_block {
+    h1 {
+      font-size: 28px;
+    }
+    .form {
+      .form_block_item {
+        .form_block_item_select_block {
+          width: 100% !important;
+          .select_sm,  {
+            max-width: 100%;
+            margin-bottom: 8px;
+          }
+          .select_lg {
+            max-width: 100% !important;
+            margin-bottom: 8px
+          }
+          .hide-show {
+            display: none;
+          }
+
+          .rs_item_block {
+            .rs_none {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
